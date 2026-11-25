@@ -3,7 +3,7 @@
   "name": "io.github.Nero-Engine/dataset-cleaner-exporter",
   "title": "Dataset Cleaner & Exporter",
   "description": "Dedupe, flatten and clean messy JSON rows (emails, phones, URLs, HTML) in one call, as JSON or CSV.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "url": "https://github.com/Nero-Engine/dataset-cleaner-exporter-mcp",
     "source": "github"
