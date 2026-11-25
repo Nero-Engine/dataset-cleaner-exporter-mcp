@@ -94,6 +94,13 @@ Three clean rows come out. Each duplicate pair kept its more complete row:
 
 Add `"outputFormat": "csv"` to get the same result back as CSV text, ready to save as a file.
 
+## Skills
+
+This server also publishes ready-made playbooks (Skills over MCP), so Claude and other agents know the steps for the whole job, not just each tool. Each is a `SKILL.md` at `skill://<name>/SKILL.md`, listed by `skills/list` and `resources/list`, read with `resources/read`.
+
+- `clean-dataset-to-csv`: Make a scraped or exported JSON dataset spreadsheet-ready: flatten nested fields, clean emails, phones and URLs, remove duplicates (exact, normalized or fuzzy), pick and rename columns, and return CSV text in one clean_rows call.
+- `dedupe-lead-list`: Remove duplicate leads or contacts from one or several merged lists, keeping the most complete record for each person or company, and say exactly how many were removed.
+
 ## Limits
 
 - Up to **150 rows per call**, counted after any array expansion. For bigger lists, split them across several calls. Anything larger returns a clear message rather than failing silently.
