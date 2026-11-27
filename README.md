@@ -116,3 +116,7 @@ Your rows are processed in memory and never stored. To see which tools get used,
 The same engine runs on the Apify Store as [Dataset Cleaner & Exporter](https://apify.com/nerolabs/dataset-cleaner-exporter), which also reads Apify datasets, CSV, Excel and JSON files by URL and Google Sheets, handles up to 100,000 records per run, exports real downloadable CSV and Excel files, appends to a named dataset that accumulates across scheduled runs, and pushes the result to a webhook when a run finishes.
 
 Built by **Nero Labs**.
+
+## Gemini CLI
+
+- **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/dataset-cleaner-exporter-mcp`

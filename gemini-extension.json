@@ -1,0 +1,12 @@
+{
+  "name": "dataset-cleaner-exporter",
+  "version": "0.2.0",
+  "description": "Dedupe, flatten and clean messy JSON rows (emails, phones, URLs, HTML) in one call, as JSON or CSV.",
+  "mcpServers": {
+    "dataset-cleaner-exporter": {
+      "httpUrl": "https://dataset-cleaner-exporter.nerolabs.workers.dev/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
