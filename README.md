@@ -1,5 +1,7 @@
 # Dataset Cleaner & Exporter (Remote MCP Server)
 
+[![Dataset Cleaner & Exporter (Remote MCP Server) MCP connector](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-cleaner-exporter/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Nero-Engine/dataset-cleaner-exporter)
+
 **Deduplicate, flatten and clean messy JSON rows in a single tool call.** Hand it a list of rows from a scraper, a CRM export or an API, and it hands back clean, spreadsheet-ready rows (or CSV text) plus an exact account of what was merged and why.
 
 Built for AI agents. No install, no API key, no signup. Connect by URL and call it.
